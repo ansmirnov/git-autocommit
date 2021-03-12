@@ -1,0 +1,25 @@
+#+TITLE: Git autocommit
+
+A tool to automatically commit changes to git.
+
+** Install
+
+Copy the =git-autocommit= file into the =/bin= directory
+
+#+BEGIN_SRC sh
+cp git-autocommit /bin
+#+END_SRC
+
+** Usage
+
+Go to the project directory.
+
+#+BEGIN_SRC sh
+cd ~/projects/demo
+#+END_SRC
+
+Run the git-autocommit script.
+
+#+BEGIN_SRC sh
+git-autocommit
+#+END_SRC
