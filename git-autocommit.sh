@@ -2,7 +2,7 @@
 
 TMP=`mktemp`
 
-echo "For stop run"
+echo "To stop, press ctrl-c or run the command:"
 echo "rm $TMP"
 
 while [[ -e $TMP ]]
